@@ -7,6 +7,7 @@ create table product (
   id                            bigint not null,
   name                          varchar(255),
   description                   varchar(255),
+  category                      varchar(255),
   stock                         integer,
   price                         double,
   constraint pk_product primary key (id)
